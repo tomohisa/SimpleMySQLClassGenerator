@@ -1,0 +1,1434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		018F6DE51CF470C700B24BE7 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018F6DE41CF470C700B24BE7 /* Settings.swift */; };
+		_LinkFileRef_C7_via_File /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
+		_LinkFileRef_C7_via_POSIXRegex /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
+		_LinkFileRef_C7_via_SimpleMySQLClassGenerator /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
+		_LinkFileRef_C7_via_Venice /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
+		_LinkFileRef_CLibvenice_via_File /* libCLibvenice.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CLibvenice" /* libCLibvenice.dylib */; };
+		_LinkFileRef_CLibvenice_via_SimpleMySQLClassGenerator /* libCLibvenice.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CLibvenice" /* libCLibvenice.dylib */; };
+		_LinkFileRef_CLibvenice_via_Venice /* libCLibvenice.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CLibvenice" /* libCLibvenice.dylib */; };
+		_LinkFileRef_Environment_via_SimpleMySQLClassGenerator /* libEnvironment.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Environment" /* libEnvironment.dylib */; };
+		_LinkFileRef_File_via_SimpleMySQLClassGenerator /* libFile.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_File" /* libFile.dylib */; };
+		_LinkFileRef_MySQL_via_SimpleMySQLClassGenerator /* libMySQL.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_MySQL" /* libMySQL.dylib */; };
+		_LinkFileRef_POSIXRegex_via_SimpleMySQLClassGenerator /* libPOSIXRegex.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_POSIXRegex" /* libPOSIXRegex.dylib */; };
+		_LinkFileRef_POSIX_via_File /* libPOSIX.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_POSIX" /* libPOSIX.dylib */; };
+		_LinkFileRef_POSIX_via_SimpleMySQLClassGenerator /* libPOSIX.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_POSIX" /* libPOSIX.dylib */; };
+		_LinkFileRef_SQLFormatter_via_MySQL /* libSQLFormatter.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_SQLFormatter" /* libSQLFormatter.dylib */; };
+		_LinkFileRef_SQLFormatter_via_SimpleMySQLClassGenerator /* libSQLFormatter.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_SQLFormatter" /* libSQLFormatter.dylib */; };
+		_LinkFileRef_String_via_File /* libString.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_String" /* libString.dylib */; };
+		_LinkFileRef_String_via_SimpleMySQLClassGenerator /* libString.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_String" /* libString.dylib */; };
+		_LinkFileRef_Venice_via_File /* libVenice.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Venice" /* libVenice.dylib */; };
+		_LinkFileRef_Venice_via_SimpleMySQLClassGenerator /* libVenice.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Venice" /* libVenice.dylib */; };
+		"__src_cc_ref_Packages/C7-0.7.3/Sources/AsyncConnection.swift" /* AsyncConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.7.3/Sources/AsyncConnection.swift" /* AsyncConnection.swift */; };
+		"__src_cc_ref_Packages/C7-0.7.3/Sources/AsyncDrain.swift" /* AsyncDrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.7.3/Sources/AsyncDrain.swift" /* AsyncDrain.swift */; };
+		"__src_cc_ref_Packages/C7-0.7.3/Sources/AsyncHost.swift" /* AsyncHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.7.3/Sources/AsyncHost.swift" /* AsyncHost.swift */; };
+		"__src_cc_ref_Packages/C7-0.7.3/Sources/AsyncStream.swift" /* AsyncStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.7.3/Sources/AsyncStream.swift" /* AsyncStream.swift */; };
+		"__src_cc_ref_Packages/C7-0.7.3/Sources/AsyncURIConnection.swift" /* AsyncURIConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.7.3/Sources/AsyncURIConnection.swift" /* AsyncURIConnection.swift */; };
+		"__src_cc_ref_Packages/C7-0.7.3/Sources/Byte.swift" /* Byte.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.7.3/Sources/Byte.swift" /* Byte.swift */; };
+		"__src_cc_ref_Packages/C7-0.7.3/Sources/C7.swift" /* C7.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.7.3/Sources/C7.swift" /* C7.swift */; };
+		"__src_cc_ref_Packages/C7-0.7.3/Sources/CaseInsensitiveString.swift" /* CaseInsensitiveString.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.7.3/Sources/CaseInsensitiveString.swift" /* CaseInsensitiveString.swift */; };
+		"__src_cc_ref_Packages/C7-0.7.3/Sources/Closable.swift" /* Closable.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.7.3/Sources/Closable.swift" /* Closable.swift */; };
+		"__src_cc_ref_Packages/C7-0.7.3/Sources/Connection.swift" /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.7.3/Sources/Connection.swift" /* Connection.swift */; };
+		"__src_cc_ref_Packages/C7-0.7.3/Sources/CustomDataStore.swift" /* CustomDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.7.3/Sources/CustomDataStore.swift" /* CustomDataStore.swift */; };
+		"__src_cc_ref_Packages/C7-0.7.3/Sources/Data.swift" /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.7.3/Sources/Data.swift" /* Data.swift */; };
+		"__src_cc_ref_Packages/C7-0.7.3/Sources/Drain.swift" /* Drain.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.7.3/Sources/Drain.swift" /* Drain.swift */; };
+		"__src_cc_ref_Packages/C7-0.7.3/Sources/Host.swift" /* Host.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.7.3/Sources/Host.swift" /* Host.swift */; };
+		"__src_cc_ref_Packages/C7-0.7.3/Sources/Query.swift" /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.7.3/Sources/Query.swift" /* Query.swift */; };
+		"__src_cc_ref_Packages/C7-0.7.3/Sources/QueryField.swift" /* QueryField.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.7.3/Sources/QueryField.swift" /* QueryField.swift */; };
+		"__src_cc_ref_Packages/C7-0.7.3/Sources/Stream.swift" /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.7.3/Sources/Stream.swift" /* Stream.swift */; };
+		"__src_cc_ref_Packages/C7-0.7.3/Sources/StreamError.swift" /* StreamError.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.7.3/Sources/StreamError.swift" /* StreamError.swift */; };
+		"__src_cc_ref_Packages/C7-0.7.3/Sources/StreamSequence.swift" /* StreamSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.7.3/Sources/StreamSequence.swift" /* StreamSequence.swift */; };
+		"__src_cc_ref_Packages/C7-0.7.3/Sources/Time.swift" /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.7.3/Sources/Time.swift" /* Time.swift */; };
+		"__src_cc_ref_Packages/C7-0.7.3/Sources/URI.swift" /* URI.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.7.3/Sources/URI.swift" /* URI.swift */; };
+		"__src_cc_ref_Packages/C7-0.7.3/Sources/URIConnection.swift" /* URIConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.7.3/Sources/URIConnection.swift" /* URIConnection.swift */; };
+		"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/chan.c" /* chan.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/chan.c" /* chan.c */; };
+		"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/cr.c" /* cr.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/cr.c" /* cr.c */; };
+		"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/debug.c" /* debug.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/debug.c" /* debug.c */; };
+		"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/dns.c" /* dns.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/dns.c" /* dns.c */; };
+		"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/file.c" /* file.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/file.c" /* file.c */; };
+		"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/ip.c" /* ip.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/ip.c" /* ip.c */; };
+		"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/list.c" /* list.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/list.c" /* list.c */; };
+		"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/poller.c" /* poller.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/poller.c" /* poller.c */; };
+		"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/slist.c" /* slist.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/slist.c" /* slist.c */; };
+		"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/stack.c" /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/stack.c" /* stack.c */; };
+		"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/tcp.c" /* tcp.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/tcp.c" /* tcp.c */; };
+		"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/timer.c" /* timer.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/timer.c" /* timer.c */; };
+		"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/udp.c" /* udp.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/udp.c" /* udp.c */; };
+		"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/unix.c" /* unix.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/unix.c" /* unix.c */; };
+		"__src_cc_ref_Packages/Environment-0.3.1/Sources/Environment/Environment.swift" /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Environment-0.3.1/Sources/Environment/Environment.swift" /* Environment.swift */; };
+		"__src_cc_ref_Packages/File-0.7.2/Sources/File.swift" /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/File-0.7.2/Sources/File.swift" /* File.swift */; };
+		"__src_cc_ref_Packages/File-0.7.2/Sources/FileStream.swift" /* FileStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/File-0.7.2/Sources/FileStream.swift" /* FileStream.swift */; };
+		"__src_cc_ref_Packages/MySQL-0.2.9/Sources/MySQL/Blob.swift" /* Blob.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/MySQL-0.2.9/Sources/MySQL/Blob.swift" /* Blob.swift */; };
+		"__src_cc_ref_Packages/MySQL-0.2.9/Sources/MySQL/Connection.swift" /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/MySQL-0.2.9/Sources/MySQL/Connection.swift" /* Connection.swift */; };
+		"__src_cc_ref_Packages/MySQL-0.2.9/Sources/MySQL/ConnectionPool.swift" /* ConnectionPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/MySQL-0.2.9/Sources/MySQL/ConnectionPool.swift" /* ConnectionPool.swift */; };
+		"__src_cc_ref_Packages/MySQL-0.2.9/Sources/MySQL/Date.swift" /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/MySQL-0.2.9/Sources/MySQL/Date.swift" /* Date.swift */; };
+		"__src_cc_ref_Packages/MySQL-0.2.9/Sources/MySQL/Error.swift" /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/MySQL-0.2.9/Sources/MySQL/Error.swift" /* Error.swift */; };
+		"__src_cc_ref_Packages/MySQL-0.2.9/Sources/MySQL/ParameterBuilder.swift" /* ParameterBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/MySQL-0.2.9/Sources/MySQL/ParameterBuilder.swift" /* ParameterBuilder.swift */; };
+		"__src_cc_ref_Packages/MySQL-0.2.9/Sources/MySQL/Query.swift" /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/MySQL-0.2.9/Sources/MySQL/Query.swift" /* Query.swift */; };
+		"__src_cc_ref_Packages/MySQL-0.2.9/Sources/MySQL/QueryParameterType.swift" /* QueryParameterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/MySQL-0.2.9/Sources/MySQL/QueryParameterType.swift" /* QueryParameterType.swift */; };
+		"__src_cc_ref_Packages/MySQL-0.2.9/Sources/MySQL/Result.swift" /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/MySQL-0.2.9/Sources/MySQL/Result.swift" /* Result.swift */; };
+		"__src_cc_ref_Packages/MySQL-0.2.9/Sources/MySQL/ResultType.swift" /* ResultType.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/MySQL-0.2.9/Sources/MySQL/ResultType.swift" /* ResultType.swift */; };
+		"__src_cc_ref_Packages/MySQL-0.2.9/Sources/MySQL/SQLType.swift" /* SQLType.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/MySQL-0.2.9/Sources/MySQL/SQLType.swift" /* SQLType.swift */; };
+		"__src_cc_ref_Packages/MySQL-0.2.9/Sources/MySQL/Sync.swift" /* Sync.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/MySQL-0.2.9/Sources/MySQL/Sync.swift" /* Sync.swift */; };
+		"__src_cc_ref_Packages/MySQL-0.2.9/Sources/MySQL/Transaction.swift" /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/MySQL-0.2.9/Sources/MySQL/Transaction.swift" /* Transaction.swift */; };
+		"__src_cc_ref_Packages/MySQL-0.2.9/Sources/SQLFormatter/Error.swift" /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/MySQL-0.2.9/Sources/SQLFormatter/Error.swift" /* Error.swift */; };
+		"__src_cc_ref_Packages/MySQL-0.2.9/Sources/SQLFormatter/QueryFormatter.swift" /* QueryFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/MySQL-0.2.9/Sources/SQLFormatter/QueryFormatter.swift" /* QueryFormatter.swift */; };
+		"__src_cc_ref_Packages/POSIX-0.5.0/Sources/POSIX.swift" /* POSIX.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/POSIX-0.5.0/Sources/POSIX.swift" /* POSIX.swift */; };
+		"__src_cc_ref_Packages/POSIXRegex-0.6.0/Source/Regex.swift" /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/POSIXRegex-0.6.0/Source/Regex.swift" /* Regex.swift */; };
+		"__src_cc_ref_Packages/String-0.7.1/Source/String.swift" /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/String-0.7.1/Source/String.swift" /* String.swift */; };
+		"__src_cc_ref_Packages/Venice-0.7.1/Source/Venice/Channel/Channel.swift" /* Channel/Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Venice-0.7.1/Source/Venice/Channel/Channel.swift" /* Channel/Channel.swift */; };
+		"__src_cc_ref_Packages/Venice-0.7.1/Source/Venice/Channel/ReceivingChannel.swift" /* Channel/ReceivingChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Venice-0.7.1/Source/Venice/Channel/ReceivingChannel.swift" /* Channel/ReceivingChannel.swift */; };
+		"__src_cc_ref_Packages/Venice-0.7.1/Source/Venice/Channel/SendingChannel.swift" /* Channel/SendingChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Venice-0.7.1/Source/Venice/Channel/SendingChannel.swift" /* Channel/SendingChannel.swift */; };
+		"__src_cc_ref_Packages/Venice-0.7.1/Source/Venice/Coroutine/Coroutine.swift" /* Coroutine/Coroutine.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Venice-0.7.1/Source/Venice/Coroutine/Coroutine.swift" /* Coroutine/Coroutine.swift */; };
+		"__src_cc_ref_Packages/Venice-0.7.1/Source/Venice/FallibleChannel/FallibleChannel.swift" /* FallibleChannel/FallibleChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Venice-0.7.1/Source/Venice/FallibleChannel/FallibleChannel.swift" /* FallibleChannel/FallibleChannel.swift */; };
+		"__src_cc_ref_Packages/Venice-0.7.1/Source/Venice/FallibleChannel/FallibleReceivingChannel.swift" /* FallibleChannel/FallibleReceivingChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Venice-0.7.1/Source/Venice/FallibleChannel/FallibleReceivingChannel.swift" /* FallibleChannel/FallibleReceivingChannel.swift */; };
+		"__src_cc_ref_Packages/Venice-0.7.1/Source/Venice/FallibleChannel/FallibleSendingChannel.swift" /* FallibleChannel/FallibleSendingChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Venice-0.7.1/Source/Venice/FallibleChannel/FallibleSendingChannel.swift" /* FallibleChannel/FallibleSendingChannel.swift */; };
+		"__src_cc_ref_Packages/Venice-0.7.1/Source/Venice/Poll/Poll.swift" /* Poll/Poll.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Venice-0.7.1/Source/Venice/Poll/Poll.swift" /* Poll/Poll.swift */; };
+		"__src_cc_ref_Packages/Venice-0.7.1/Source/Venice/Select/Select.swift" /* Select/Select.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Venice-0.7.1/Source/Venice/Select/Select.swift" /* Select/Select.swift */; };
+		"__src_cc_ref_Packages/Venice-0.7.1/Source/Venice/TImer/Timer.swift" /* TImer/Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Venice-0.7.1/Source/Venice/TImer/Timer.swift" /* TImer/Timer.swift */; };
+		"__src_cc_ref_Packages/Venice-0.7.1/Source/Venice/Ticker/Ticker.swift" /* Ticker/Ticker.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Venice-0.7.1/Source/Venice/Ticker/Ticker.swift" /* Ticker/Ticker.swift */; };
+		__src_cc_ref_Sources/main.swift /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/main.swift /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		018F6DDA1CF46BBD00B24BE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_SQLFormatter";
+			remoteInfo = SQLFormatter;
+		};
+		018F6DDB1CF46BBD00B24BE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_C7";
+			remoteInfo = C7;
+		};
+		018F6DDC1CF46BBD00B24BE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_CLibvenice";
+			remoteInfo = CLibvenice;
+		};
+		018F6DDD1CF46BBD00B24BE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_POSIX";
+			remoteInfo = POSIX;
+		};
+		018F6DDE1CF46BBD00B24BE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_String";
+			remoteInfo = String;
+		};
+		018F6DDF1CF46BBD00B24BE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_Venice";
+			remoteInfo = Venice;
+		};
+		018F6DE01CF46BBD00B24BE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_POSIXRegex";
+			remoteInfo = POSIXRegex;
+		};
+		018F6DE11CF46BBD00B24BE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_File";
+			remoteInfo = File;
+		};
+		018F6DE21CF46BBD00B24BE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_Environment";
+			remoteInfo = Environment;
+		};
+		018F6DE31CF46BBD00B24BE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_MySQL";
+			remoteInfo = MySQL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		018F6DE41CF470C700B24BE7 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Package.swift /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.7.3/Sources/AsyncConnection.swift" /* AsyncConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncConnection.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.7.3/Sources/AsyncDrain.swift" /* AsyncDrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncDrain.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.7.3/Sources/AsyncHost.swift" /* AsyncHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncHost.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.7.3/Sources/AsyncStream.swift" /* AsyncStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncStream.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.7.3/Sources/AsyncURIConnection.swift" /* AsyncURIConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncURIConnection.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.7.3/Sources/Byte.swift" /* Byte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Byte.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.7.3/Sources/C7.swift" /* C7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C7.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.7.3/Sources/CaseInsensitiveString.swift" /* CaseInsensitiveString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseInsensitiveString.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.7.3/Sources/Closable.swift" /* Closable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closable.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.7.3/Sources/Connection.swift" /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.7.3/Sources/CustomDataStore.swift" /* CustomDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDataStore.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.7.3/Sources/Data.swift" /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.7.3/Sources/Drain.swift" /* Drain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drain.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.7.3/Sources/Host.swift" /* Host.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Host.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.7.3/Sources/Query.swift" /* Query.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Query.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.7.3/Sources/QueryField.swift" /* QueryField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryField.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.7.3/Sources/Stream.swift" /* Stream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stream.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.7.3/Sources/StreamError.swift" /* StreamError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamError.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.7.3/Sources/StreamSequence.swift" /* StreamSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamSequence.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.7.3/Sources/Time.swift" /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.7.3/Sources/URI.swift" /* URI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URI.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.7.3/Sources/URIConnection.swift" /* URIConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URIConnection.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/chan.c" /* chan.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = chan.c; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/cr.c" /* cr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cr.c; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/debug.c" /* debug.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = debug.c; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/dns.c" /* dns.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dns.c; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/file.c" /* file.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = file.c; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/ip.c" /* ip.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ip.c; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/list.c" /* list.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = list.c; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/poller.c" /* poller.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = poller.c; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/slist.c" /* slist.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = slist.c; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/stack.c" /* stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stack.c; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/tcp.c" /* tcp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tcp.c; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/timer.c" /* timer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = timer.c; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/udp.c" /* udp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = udp.c; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/unix.c" /* unix.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = unix.c; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Environment-0.3.1/Sources/Environment/Environment.swift" /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/File-0.7.2/Sources/File.swift" /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/File-0.7.2/Sources/FileStream.swift" /* FileStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileStream.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/MySQL-0.2.9/Sources/MySQL/Blob.swift" /* Blob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blob.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/MySQL-0.2.9/Sources/MySQL/Connection.swift" /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/MySQL-0.2.9/Sources/MySQL/ConnectionPool.swift" /* ConnectionPool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionPool.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/MySQL-0.2.9/Sources/MySQL/Date.swift" /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/MySQL-0.2.9/Sources/MySQL/Error.swift" /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/MySQL-0.2.9/Sources/MySQL/ParameterBuilder.swift" /* ParameterBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterBuilder.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/MySQL-0.2.9/Sources/MySQL/Query.swift" /* Query.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Query.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/MySQL-0.2.9/Sources/MySQL/QueryParameterType.swift" /* QueryParameterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryParameterType.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/MySQL-0.2.9/Sources/MySQL/Result.swift" /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/MySQL-0.2.9/Sources/MySQL/ResultType.swift" /* ResultType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultType.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/MySQL-0.2.9/Sources/MySQL/SQLType.swift" /* SQLType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLType.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/MySQL-0.2.9/Sources/MySQL/Sync.swift" /* Sync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sync.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/MySQL-0.2.9/Sources/MySQL/Transaction.swift" /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/MySQL-0.2.9/Sources/SQLFormatter/Error.swift" /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/MySQL-0.2.9/Sources/SQLFormatter/QueryFormatter.swift" /* QueryFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryFormatter.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/POSIX-0.5.0/Sources/POSIX.swift" /* POSIX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POSIX.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/POSIXRegex-0.6.0/Source/Regex.swift" /* Regex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/String-0.7.1/Source/String.swift" /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Venice-0.7.1/Source/Venice/Channel/Channel.swift" /* Channel/Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel/Channel.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Venice-0.7.1/Source/Venice/Channel/ReceivingChannel.swift" /* Channel/ReceivingChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel/ReceivingChannel.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Venice-0.7.1/Source/Venice/Channel/SendingChannel.swift" /* Channel/SendingChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel/SendingChannel.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Venice-0.7.1/Source/Venice/Coroutine/Coroutine.swift" /* Coroutine/Coroutine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coroutine/Coroutine.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Venice-0.7.1/Source/Venice/FallibleChannel/FallibleChannel.swift" /* FallibleChannel/FallibleChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallibleChannel/FallibleChannel.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Venice-0.7.1/Source/Venice/FallibleChannel/FallibleReceivingChannel.swift" /* FallibleChannel/FallibleReceivingChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallibleChannel/FallibleReceivingChannel.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Venice-0.7.1/Source/Venice/FallibleChannel/FallibleSendingChannel.swift" /* FallibleChannel/FallibleSendingChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallibleChannel/FallibleSendingChannel.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Venice-0.7.1/Source/Venice/Poll/Poll.swift" /* Poll/Poll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poll/Poll.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Venice-0.7.1/Source/Venice/Select/Select.swift" /* Select/Select.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Select/Select.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Venice-0.7.1/Source/Venice/TImer/Timer.swift" /* TImer/Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TImer/Timer.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Venice-0.7.1/Source/Venice/Ticker/Ticker.swift" /* Ticker/Ticker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticker/Ticker.swift; sourceTree = "<group>"; };
+		__PBXFileRef_SimpleMySQLClassGenerator.xcodeproj/Configs/Project.xcconfig /* Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Project.xcconfig; path = SimpleMySQLClassGenerator.xcodeproj/Configs/Project.xcconfig; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/main.swift /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		"_____Product_C7" /* libC7.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libC7.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_CLibvenice" /* libCLibvenice.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libCLibvenice.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_Environment" /* libEnvironment.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libEnvironment.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_File" /* libFile.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libFile.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_MySQL" /* libMySQL.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libMySQL.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_POSIX" /* libPOSIX.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libPOSIX.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_POSIXRegex" /* libPOSIXRegex.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libPOSIXRegex.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_SQLFormatter" /* libSQLFormatter.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libSQLFormatter.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_SimpleMySQLClassGenerator" /* SimpleMySQLClassGenerator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = SimpleMySQLClassGenerator; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_String" /* libString.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libString.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_Venice" /* libVenice.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libVenice.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		"___LinkPhase_C7" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_CLibvenice" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_Environment" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_File" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_C7_via_File /* libC7.dylib in Frameworks */,
+				_LinkFileRef_CLibvenice_via_File /* libCLibvenice.dylib in Frameworks */,
+				_LinkFileRef_POSIX_via_File /* libPOSIX.dylib in Frameworks */,
+				_LinkFileRef_String_via_File /* libString.dylib in Frameworks */,
+				_LinkFileRef_Venice_via_File /* libVenice.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_MySQL" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_SQLFormatter_via_MySQL /* libSQLFormatter.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_POSIX" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_POSIXRegex" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_C7_via_POSIXRegex /* libC7.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_SQLFormatter" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_SimpleMySQLClassGenerator" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_CLibvenice_via_SimpleMySQLClassGenerator /* libCLibvenice.dylib in Frameworks */,
+				_LinkFileRef_C7_via_SimpleMySQLClassGenerator /* libC7.dylib in Frameworks */,
+				_LinkFileRef_POSIX_via_SimpleMySQLClassGenerator /* libPOSIX.dylib in Frameworks */,
+				_LinkFileRef_String_via_SimpleMySQLClassGenerator /* libString.dylib in Frameworks */,
+				_LinkFileRef_Venice_via_SimpleMySQLClassGenerator /* libVenice.dylib in Frameworks */,
+				_LinkFileRef_POSIXRegex_via_SimpleMySQLClassGenerator /* libPOSIXRegex.dylib in Frameworks */,
+				_LinkFileRef_File_via_SimpleMySQLClassGenerator /* libFile.dylib in Frameworks */,
+				_LinkFileRef_Environment_via_SimpleMySQLClassGenerator /* libEnvironment.dylib in Frameworks */,
+				_LinkFileRef_MySQL_via_SimpleMySQLClassGenerator /* libMySQL.dylib in Frameworks */,
+				_LinkFileRef_SQLFormatter_via_SimpleMySQLClassGenerator /* libSQLFormatter.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_String" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_Venice" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_C7_via_Venice /* libC7.dylib in Frameworks */,
+				_LinkFileRef_CLibvenice_via_Venice /* libCLibvenice.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		Dependencies_ /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				"_______Group_MySQL" /* MySQL */,
+				"_______Group_SQLFormatter" /* SQLFormatter */,
+				"_______Group_Environment" /* Environment */,
+				"_______Group_CLibvenice" /* CLibvenice */,
+				"_______Group_C7" /* C7 */,
+				"_______Group_Venice" /* Venice */,
+				"_______Group_String" /* String */,
+				"_______Group_POSIX" /* POSIX */,
+				"_______Group_File" /* File */,
+				"_______Group_POSIXRegex" /* POSIXRegex */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		"___RootGroup_" = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_Package.swift /* Package.swift */,
+				"_____Configs_" /* Configs */,
+				"_____Sources_" /* Sources */,
+				Dependencies_ /* Dependencies */,
+				"____Products_" /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		"____Products_" /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"_____Product_MySQL" /* libMySQL.dylib */,
+				"_____Product_SQLFormatter" /* libSQLFormatter.dylib */,
+				"_____Product_Environment" /* libEnvironment.dylib */,
+				"_____Product_CLibvenice" /* libCLibvenice.dylib */,
+				"_____Product_C7" /* libC7.dylib */,
+				"_____Product_Venice" /* libVenice.dylib */,
+				"_____Product_String" /* libString.dylib */,
+				"_____Product_POSIX" /* libPOSIX.dylib */,
+				"_____Product_File" /* libFile.dylib */,
+				"_____Product_POSIXRegex" /* libPOSIXRegex.dylib */,
+				"_____Product_SimpleMySQLClassGenerator" /* SimpleMySQLClassGenerator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		"_____Configs_" /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_SimpleMySQLClassGenerator.xcodeproj/Configs/Project.xcconfig /* Project.xcconfig */,
+			);
+			name = Configs;
+			sourceTree = "<group>";
+		};
+		"_____Sources_" /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				"_______Group_SimpleMySQLClassGenerator" /* SimpleMySQLClassGenerator */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		"_______Group_C7" /* C7 */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/C7-0.7.3/Sources/AsyncConnection.swift" /* AsyncConnection.swift */,
+				"__PBXFileRef_Packages/C7-0.7.3/Sources/AsyncDrain.swift" /* AsyncDrain.swift */,
+				"__PBXFileRef_Packages/C7-0.7.3/Sources/AsyncHost.swift" /* AsyncHost.swift */,
+				"__PBXFileRef_Packages/C7-0.7.3/Sources/AsyncStream.swift" /* AsyncStream.swift */,
+				"__PBXFileRef_Packages/C7-0.7.3/Sources/AsyncURIConnection.swift" /* AsyncURIConnection.swift */,
+				"__PBXFileRef_Packages/C7-0.7.3/Sources/Byte.swift" /* Byte.swift */,
+				"__PBXFileRef_Packages/C7-0.7.3/Sources/C7.swift" /* C7.swift */,
+				"__PBXFileRef_Packages/C7-0.7.3/Sources/CaseInsensitiveString.swift" /* CaseInsensitiveString.swift */,
+				"__PBXFileRef_Packages/C7-0.7.3/Sources/Closable.swift" /* Closable.swift */,
+				"__PBXFileRef_Packages/C7-0.7.3/Sources/Connection.swift" /* Connection.swift */,
+				"__PBXFileRef_Packages/C7-0.7.3/Sources/CustomDataStore.swift" /* CustomDataStore.swift */,
+				"__PBXFileRef_Packages/C7-0.7.3/Sources/Data.swift" /* Data.swift */,
+				"__PBXFileRef_Packages/C7-0.7.3/Sources/Drain.swift" /* Drain.swift */,
+				"__PBXFileRef_Packages/C7-0.7.3/Sources/Host.swift" /* Host.swift */,
+				"__PBXFileRef_Packages/C7-0.7.3/Sources/Query.swift" /* Query.swift */,
+				"__PBXFileRef_Packages/C7-0.7.3/Sources/QueryField.swift" /* QueryField.swift */,
+				"__PBXFileRef_Packages/C7-0.7.3/Sources/Stream.swift" /* Stream.swift */,
+				"__PBXFileRef_Packages/C7-0.7.3/Sources/StreamError.swift" /* StreamError.swift */,
+				"__PBXFileRef_Packages/C7-0.7.3/Sources/StreamSequence.swift" /* StreamSequence.swift */,
+				"__PBXFileRef_Packages/C7-0.7.3/Sources/Time.swift" /* Time.swift */,
+				"__PBXFileRef_Packages/C7-0.7.3/Sources/URI.swift" /* URI.swift */,
+				"__PBXFileRef_Packages/C7-0.7.3/Sources/URIConnection.swift" /* URIConnection.swift */,
+			);
+			name = C7;
+			path = "Packages/C7-0.7.3/Sources";
+			sourceTree = "<group>";
+		};
+		"_______Group_CLibvenice" /* CLibvenice */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/chan.c" /* chan.c */,
+				"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/cr.c" /* cr.c */,
+				"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/debug.c" /* debug.c */,
+				"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/dns.c" /* dns.c */,
+				"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/file.c" /* file.c */,
+				"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/ip.c" /* ip.c */,
+				"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/list.c" /* list.c */,
+				"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/poller.c" /* poller.c */,
+				"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/slist.c" /* slist.c */,
+				"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/stack.c" /* stack.c */,
+				"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/tcp.c" /* tcp.c */,
+				"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/timer.c" /* timer.c */,
+				"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/udp.c" /* udp.c */,
+				"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/unix.c" /* unix.c */,
+			);
+			name = CLibvenice;
+			path = "Packages/CLibvenice-0.5.1/Sources";
+			sourceTree = "<group>";
+		};
+		"_______Group_Environment" /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/Environment-0.3.1/Sources/Environment/Environment.swift" /* Environment.swift */,
+			);
+			name = Environment;
+			path = "Packages/Environment-0.3.1/Sources/Environment";
+			sourceTree = "<group>";
+		};
+		"_______Group_File" /* File */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/File-0.7.2/Sources/File.swift" /* File.swift */,
+				"__PBXFileRef_Packages/File-0.7.2/Sources/FileStream.swift" /* FileStream.swift */,
+			);
+			name = File;
+			path = "Packages/File-0.7.2/Sources";
+			sourceTree = "<group>";
+		};
+		"_______Group_MySQL" /* MySQL */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/MySQL-0.2.9/Sources/MySQL/Blob.swift" /* Blob.swift */,
+				"__PBXFileRef_Packages/MySQL-0.2.9/Sources/MySQL/Connection.swift" /* Connection.swift */,
+				"__PBXFileRef_Packages/MySQL-0.2.9/Sources/MySQL/ConnectionPool.swift" /* ConnectionPool.swift */,
+				"__PBXFileRef_Packages/MySQL-0.2.9/Sources/MySQL/Date.swift" /* Date.swift */,
+				"__PBXFileRef_Packages/MySQL-0.2.9/Sources/MySQL/Error.swift" /* Error.swift */,
+				"__PBXFileRef_Packages/MySQL-0.2.9/Sources/MySQL/ParameterBuilder.swift" /* ParameterBuilder.swift */,
+				"__PBXFileRef_Packages/MySQL-0.2.9/Sources/MySQL/Query.swift" /* Query.swift */,
+				"__PBXFileRef_Packages/MySQL-0.2.9/Sources/MySQL/QueryParameterType.swift" /* QueryParameterType.swift */,
+				"__PBXFileRef_Packages/MySQL-0.2.9/Sources/MySQL/Result.swift" /* Result.swift */,
+				"__PBXFileRef_Packages/MySQL-0.2.9/Sources/MySQL/ResultType.swift" /* ResultType.swift */,
+				"__PBXFileRef_Packages/MySQL-0.2.9/Sources/MySQL/SQLType.swift" /* SQLType.swift */,
+				"__PBXFileRef_Packages/MySQL-0.2.9/Sources/MySQL/Sync.swift" /* Sync.swift */,
+				"__PBXFileRef_Packages/MySQL-0.2.9/Sources/MySQL/Transaction.swift" /* Transaction.swift */,
+			);
+			name = MySQL;
+			path = "Packages/MySQL-0.2.9/Sources/MySQL";
+			sourceTree = "<group>";
+		};
+		"_______Group_POSIX" /* POSIX */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/POSIX-0.5.0/Sources/POSIX.swift" /* POSIX.swift */,
+			);
+			name = POSIX;
+			path = "Packages/POSIX-0.5.0/Sources";
+			sourceTree = "<group>";
+		};
+		"_______Group_POSIXRegex" /* POSIXRegex */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/POSIXRegex-0.6.0/Source/Regex.swift" /* Regex.swift */,
+			);
+			name = POSIXRegex;
+			path = "Packages/POSIXRegex-0.6.0/Source";
+			sourceTree = "<group>";
+		};
+		"_______Group_SQLFormatter" /* SQLFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/MySQL-0.2.9/Sources/SQLFormatter/Error.swift" /* Error.swift */,
+				"__PBXFileRef_Packages/MySQL-0.2.9/Sources/SQLFormatter/QueryFormatter.swift" /* QueryFormatter.swift */,
+			);
+			name = SQLFormatter;
+			path = "Packages/MySQL-0.2.9/Sources/SQLFormatter";
+			sourceTree = "<group>";
+		};
+		"_______Group_SimpleMySQLClassGenerator" /* SimpleMySQLClassGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_Sources/main.swift /* main.swift */,
+				018F6DE41CF470C700B24BE7 /* Settings.swift */,
+			);
+			name = SimpleMySQLClassGenerator;
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		"_______Group_String" /* String */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/String-0.7.1/Source/String.swift" /* String.swift */,
+			);
+			name = String;
+			path = "Packages/String-0.7.1/Source";
+			sourceTree = "<group>";
+		};
+		"_______Group_Venice" /* Venice */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/Venice-0.7.1/Source/Venice/Channel/Channel.swift" /* Channel/Channel.swift */,
+				"__PBXFileRef_Packages/Venice-0.7.1/Source/Venice/Channel/ReceivingChannel.swift" /* Channel/ReceivingChannel.swift */,
+				"__PBXFileRef_Packages/Venice-0.7.1/Source/Venice/Channel/SendingChannel.swift" /* Channel/SendingChannel.swift */,
+				"__PBXFileRef_Packages/Venice-0.7.1/Source/Venice/Coroutine/Coroutine.swift" /* Coroutine/Coroutine.swift */,
+				"__PBXFileRef_Packages/Venice-0.7.1/Source/Venice/FallibleChannel/FallibleChannel.swift" /* FallibleChannel/FallibleChannel.swift */,
+				"__PBXFileRef_Packages/Venice-0.7.1/Source/Venice/FallibleChannel/FallibleReceivingChannel.swift" /* FallibleChannel/FallibleReceivingChannel.swift */,
+				"__PBXFileRef_Packages/Venice-0.7.1/Source/Venice/FallibleChannel/FallibleSendingChannel.swift" /* FallibleChannel/FallibleSendingChannel.swift */,
+				"__PBXFileRef_Packages/Venice-0.7.1/Source/Venice/Poll/Poll.swift" /* Poll/Poll.swift */,
+				"__PBXFileRef_Packages/Venice-0.7.1/Source/Venice/Select/Select.swift" /* Select/Select.swift */,
+				"__PBXFileRef_Packages/Venice-0.7.1/Source/Venice/Ticker/Ticker.swift" /* Ticker/Ticker.swift */,
+				"__PBXFileRef_Packages/Venice-0.7.1/Source/Venice/TImer/Timer.swift" /* TImer/Timer.swift */,
+			);
+			name = Venice;
+			path = "Packages/Venice-0.7.1/Source/Venice";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"______Target_C7" /* C7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_C7" /* Build configuration list for PBXNativeTarget "C7" */;
+			buildPhases = (
+				CompilePhase_C7 /* Sources */,
+				"___LinkPhase_C7" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = C7;
+			productName = C7;
+			productReference = "_____Product_C7" /* libC7.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		"______Target_CLibvenice" /* CLibvenice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_CLibvenice" /* Build configuration list for PBXNativeTarget "CLibvenice" */;
+			buildPhases = (
+				CompilePhase_CLibvenice /* Sources */,
+				"___LinkPhase_CLibvenice" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CLibvenice;
+			productName = CLibvenice;
+			productReference = "_____Product_CLibvenice" /* libCLibvenice.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		"______Target_Environment" /* Environment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_Environment" /* Build configuration list for PBXNativeTarget "Environment" */;
+			buildPhases = (
+				CompilePhase_Environment /* Sources */,
+				"___LinkPhase_Environment" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Environment;
+			productName = Environment;
+			productReference = "_____Product_Environment" /* libEnvironment.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		"______Target_File" /* File */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_File" /* Build configuration list for PBXNativeTarget "File" */;
+			buildPhases = (
+				CompilePhase_File /* Sources */,
+				"___LinkPhase_File" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_C7 /* PBXTargetDependency */,
+				__Dependency_CLibvenice /* PBXTargetDependency */,
+				__Dependency_POSIX /* PBXTargetDependency */,
+				__Dependency_String /* PBXTargetDependency */,
+				__Dependency_Venice /* PBXTargetDependency */,
+			);
+			name = File;
+			productName = File;
+			productReference = "_____Product_File" /* libFile.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		"______Target_MySQL" /* MySQL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_MySQL" /* Build configuration list for PBXNativeTarget "MySQL" */;
+			buildPhases = (
+				CompilePhase_MySQL /* Sources */,
+				"___LinkPhase_MySQL" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_SQLFormatter /* PBXTargetDependency */,
+			);
+			name = MySQL;
+			productName = MySQL;
+			productReference = "_____Product_MySQL" /* libMySQL.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		"______Target_POSIX" /* POSIX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_POSIX" /* Build configuration list for PBXNativeTarget "POSIX" */;
+			buildPhases = (
+				CompilePhase_POSIX /* Sources */,
+				"___LinkPhase_POSIX" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = POSIX;
+			productName = POSIX;
+			productReference = "_____Product_POSIX" /* libPOSIX.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		"______Target_POSIXRegex" /* POSIXRegex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_POSIXRegex" /* Build configuration list for PBXNativeTarget "POSIXRegex" */;
+			buildPhases = (
+				CompilePhase_POSIXRegex /* Sources */,
+				"___LinkPhase_POSIXRegex" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_C7 /* PBXTargetDependency */,
+			);
+			name = POSIXRegex;
+			productName = POSIXRegex;
+			productReference = "_____Product_POSIXRegex" /* libPOSIXRegex.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		"______Target_SQLFormatter" /* SQLFormatter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_SQLFormatter" /* Build configuration list for PBXNativeTarget "SQLFormatter" */;
+			buildPhases = (
+				CompilePhase_SQLFormatter /* Sources */,
+				"___LinkPhase_SQLFormatter" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQLFormatter;
+			productName = SQLFormatter;
+			productReference = "_____Product_SQLFormatter" /* libSQLFormatter.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		"______Target_SimpleMySQLClassGenerator" /* SimpleMySQLClassGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_SimpleMySQLClassGenerator" /* Build configuration list for PBXNativeTarget "SimpleMySQLClassGenerator" */;
+			buildPhases = (
+				CompilePhase_SimpleMySQLClassGenerator /* Sources */,
+				"___LinkPhase_SimpleMySQLClassGenerator" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_CLibvenice /* PBXTargetDependency */,
+				__Dependency_C7 /* PBXTargetDependency */,
+				__Dependency_POSIX /* PBXTargetDependency */,
+				__Dependency_String /* PBXTargetDependency */,
+				__Dependency_Venice /* PBXTargetDependency */,
+				__Dependency_POSIXRegex /* PBXTargetDependency */,
+				__Dependency_File /* PBXTargetDependency */,
+				__Dependency_Environment /* PBXTargetDependency */,
+				__Dependency_MySQL /* PBXTargetDependency */,
+				__Dependency_SQLFormatter /* PBXTargetDependency */,
+			);
+			name = SimpleMySQLClassGenerator;
+			productName = SimpleMySQLClassGenerator;
+			productReference = "_____Product_SimpleMySQLClassGenerator" /* SimpleMySQLClassGenerator */;
+			productType = "com.apple.product-type.tool";
+		};
+		"______Target_String" /* String */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_String" /* Build configuration list for PBXNativeTarget "String" */;
+			buildPhases = (
+				CompilePhase_String /* Sources */,
+				"___LinkPhase_String" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = String;
+			productName = String;
+			productReference = "_____Product_String" /* libString.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		"______Target_Venice" /* Venice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_Venice" /* Build configuration list for PBXNativeTarget "Venice" */;
+			buildPhases = (
+				CompilePhase_Venice /* Sources */,
+				"___LinkPhase_Venice" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_C7 /* PBXTargetDependency */,
+				__Dependency_CLibvenice /* PBXTargetDependency */,
+			);
+			name = Venice;
+			productName = Venice;
+			productReference = "_____Product_Venice" /* libVenice.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		__RootObject_ /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = "___RootConfs_" /* Build configuration list for PBXProject "SimpleMySQLClassGenerator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = "___RootGroup_";
+			productRefGroup = "____Products_" /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"______Target_MySQL" /* MySQL */,
+				"______Target_SQLFormatter" /* SQLFormatter */,
+				"______Target_Environment" /* Environment */,
+				"______Target_CLibvenice" /* CLibvenice */,
+				"______Target_C7" /* C7 */,
+				"______Target_Venice" /* Venice */,
+				"______Target_String" /* String */,
+				"______Target_POSIX" /* POSIX */,
+				"______Target_File" /* File */,
+				"______Target_POSIXRegex" /* POSIXRegex */,
+				"______Target_SimpleMySQLClassGenerator" /* SimpleMySQLClassGenerator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CompilePhase_C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/C7-0.7.3/Sources/AsyncConnection.swift" /* AsyncConnection.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.7.3/Sources/AsyncDrain.swift" /* AsyncDrain.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.7.3/Sources/AsyncHost.swift" /* AsyncHost.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.7.3/Sources/AsyncStream.swift" /* AsyncStream.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.7.3/Sources/AsyncURIConnection.swift" /* AsyncURIConnection.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.7.3/Sources/Byte.swift" /* Byte.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.7.3/Sources/C7.swift" /* C7.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.7.3/Sources/CaseInsensitiveString.swift" /* CaseInsensitiveString.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.7.3/Sources/Closable.swift" /* Closable.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.7.3/Sources/Connection.swift" /* Connection.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.7.3/Sources/CustomDataStore.swift" /* CustomDataStore.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.7.3/Sources/Data.swift" /* Data.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.7.3/Sources/Drain.swift" /* Drain.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.7.3/Sources/Host.swift" /* Host.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.7.3/Sources/Query.swift" /* Query.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.7.3/Sources/QueryField.swift" /* QueryField.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.7.3/Sources/Stream.swift" /* Stream.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.7.3/Sources/StreamError.swift" /* StreamError.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.7.3/Sources/StreamSequence.swift" /* StreamSequence.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.7.3/Sources/Time.swift" /* Time.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.7.3/Sources/URI.swift" /* URI.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.7.3/Sources/URIConnection.swift" /* URIConnection.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_CLibvenice /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/chan.c" /* chan.c in Sources */,
+				"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/cr.c" /* cr.c in Sources */,
+				"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/debug.c" /* debug.c in Sources */,
+				"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/dns.c" /* dns.c in Sources */,
+				"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/file.c" /* file.c in Sources */,
+				"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/ip.c" /* ip.c in Sources */,
+				"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/list.c" /* list.c in Sources */,
+				"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/poller.c" /* poller.c in Sources */,
+				"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/slist.c" /* slist.c in Sources */,
+				"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/stack.c" /* stack.c in Sources */,
+				"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/tcp.c" /* tcp.c in Sources */,
+				"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/timer.c" /* timer.c in Sources */,
+				"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/udp.c" /* udp.c in Sources */,
+				"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/unix.c" /* unix.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_Environment /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/Environment-0.3.1/Sources/Environment/Environment.swift" /* Environment.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_File /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/File-0.7.2/Sources/File.swift" /* File.swift in Sources */,
+				"__src_cc_ref_Packages/File-0.7.2/Sources/FileStream.swift" /* FileStream.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_MySQL /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/MySQL-0.2.9/Sources/MySQL/Blob.swift" /* Blob.swift in Sources */,
+				"__src_cc_ref_Packages/MySQL-0.2.9/Sources/MySQL/Connection.swift" /* Connection.swift in Sources */,
+				"__src_cc_ref_Packages/MySQL-0.2.9/Sources/MySQL/ConnectionPool.swift" /* ConnectionPool.swift in Sources */,
+				"__src_cc_ref_Packages/MySQL-0.2.9/Sources/MySQL/Date.swift" /* Date.swift in Sources */,
+				"__src_cc_ref_Packages/MySQL-0.2.9/Sources/MySQL/Error.swift" /* Error.swift in Sources */,
+				"__src_cc_ref_Packages/MySQL-0.2.9/Sources/MySQL/ParameterBuilder.swift" /* ParameterBuilder.swift in Sources */,
+				"__src_cc_ref_Packages/MySQL-0.2.9/Sources/MySQL/Query.swift" /* Query.swift in Sources */,
+				"__src_cc_ref_Packages/MySQL-0.2.9/Sources/MySQL/QueryParameterType.swift" /* QueryParameterType.swift in Sources */,
+				"__src_cc_ref_Packages/MySQL-0.2.9/Sources/MySQL/Result.swift" /* Result.swift in Sources */,
+				"__src_cc_ref_Packages/MySQL-0.2.9/Sources/MySQL/ResultType.swift" /* ResultType.swift in Sources */,
+				"__src_cc_ref_Packages/MySQL-0.2.9/Sources/MySQL/SQLType.swift" /* SQLType.swift in Sources */,
+				"__src_cc_ref_Packages/MySQL-0.2.9/Sources/MySQL/Sync.swift" /* Sync.swift in Sources */,
+				"__src_cc_ref_Packages/MySQL-0.2.9/Sources/MySQL/Transaction.swift" /* Transaction.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_POSIX /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/POSIX-0.5.0/Sources/POSIX.swift" /* POSIX.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_POSIXRegex /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/POSIXRegex-0.6.0/Source/Regex.swift" /* Regex.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_SQLFormatter /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/MySQL-0.2.9/Sources/SQLFormatter/Error.swift" /* Error.swift in Sources */,
+				"__src_cc_ref_Packages/MySQL-0.2.9/Sources/SQLFormatter/QueryFormatter.swift" /* QueryFormatter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_SimpleMySQLClassGenerator /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				018F6DE51CF470C700B24BE7 /* Settings.swift in Sources */,
+				__src_cc_ref_Sources/main.swift /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_String /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/String-0.7.1/Source/String.swift" /* String.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_Venice /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/Venice-0.7.1/Source/Venice/Channel/Channel.swift" /* Channel/Channel.swift in Sources */,
+				"__src_cc_ref_Packages/Venice-0.7.1/Source/Venice/Channel/ReceivingChannel.swift" /* Channel/ReceivingChannel.swift in Sources */,
+				"__src_cc_ref_Packages/Venice-0.7.1/Source/Venice/Channel/SendingChannel.swift" /* Channel/SendingChannel.swift in Sources */,
+				"__src_cc_ref_Packages/Venice-0.7.1/Source/Venice/Coroutine/Coroutine.swift" /* Coroutine/Coroutine.swift in Sources */,
+				"__src_cc_ref_Packages/Venice-0.7.1/Source/Venice/FallibleChannel/FallibleChannel.swift" /* FallibleChannel/FallibleChannel.swift in Sources */,
+				"__src_cc_ref_Packages/Venice-0.7.1/Source/Venice/FallibleChannel/FallibleReceivingChannel.swift" /* FallibleChannel/FallibleReceivingChannel.swift in Sources */,
+				"__src_cc_ref_Packages/Venice-0.7.1/Source/Venice/FallibleChannel/FallibleSendingChannel.swift" /* FallibleChannel/FallibleSendingChannel.swift in Sources */,
+				"__src_cc_ref_Packages/Venice-0.7.1/Source/Venice/Poll/Poll.swift" /* Poll/Poll.swift in Sources */,
+				"__src_cc_ref_Packages/Venice-0.7.1/Source/Venice/Select/Select.swift" /* Select/Select.swift in Sources */,
+				"__src_cc_ref_Packages/Venice-0.7.1/Source/Venice/Ticker/Ticker.swift" /* Ticker/Ticker.swift in Sources */,
+				"__src_cc_ref_Packages/Venice-0.7.1/Source/Venice/TImer/Timer.swift" /* TImer/Timer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		__Dependency_C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_C7" /* C7 */;
+			targetProxy = 018F6DDB1CF46BBD00B24BE7 /* PBXContainerItemProxy */;
+		};
+		__Dependency_CLibvenice /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_CLibvenice" /* CLibvenice */;
+			targetProxy = 018F6DDC1CF46BBD00B24BE7 /* PBXContainerItemProxy */;
+		};
+		__Dependency_Environment /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_Environment" /* Environment */;
+			targetProxy = 018F6DE21CF46BBD00B24BE7 /* PBXContainerItemProxy */;
+		};
+		__Dependency_File /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_File" /* File */;
+			targetProxy = 018F6DE11CF46BBD00B24BE7 /* PBXContainerItemProxy */;
+		};
+		__Dependency_MySQL /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_MySQL" /* MySQL */;
+			targetProxy = 018F6DE31CF46BBD00B24BE7 /* PBXContainerItemProxy */;
+		};
+		__Dependency_POSIX /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_POSIX" /* POSIX */;
+			targetProxy = 018F6DDD1CF46BBD00B24BE7 /* PBXContainerItemProxy */;
+		};
+		__Dependency_POSIXRegex /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_POSIXRegex" /* POSIXRegex */;
+			targetProxy = 018F6DE01CF46BBD00B24BE7 /* PBXContainerItemProxy */;
+		};
+		__Dependency_SQLFormatter /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_SQLFormatter" /* SQLFormatter */;
+			targetProxy = 018F6DDA1CF46BBD00B24BE7 /* PBXContainerItemProxy */;
+		};
+		__Dependency_String /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_String" /* String */;
+			targetProxy = 018F6DDE1CF46BBD00B24BE7 /* PBXContainerItemProxy */;
+		};
+		__Dependency_Venice /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_Venice" /* Venice */;
+			targetProxy = 018F6DDF1CF46BBD00B24BE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		_ReleaseConf_C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_CLibvenice /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_Environment /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_File /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/tomohisa/oss/SimpleMySQLClassGenerator/Packages/CLibvenice-0.5.1/Sources/include";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_MySQL /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/tomohisa/oss/SimpleMySQLClassGenerator/Packages/CMySQL-1.1.3";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_POSIX /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_POSIXRegex /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_SQLFormatter /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/tomohisa/oss/SimpleMySQLClassGenerator/Packages/CMySQL-1.1.3";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_SimpleMySQLClassGenerator /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"/Users/tomohisa/oss/SimpleMySQLClassGenerator/Packages/CLibvenice-0.5.1/Sources/include",
+					"/Users/tomohisa/oss/SimpleMySQLClassGenerator/Packages/CMySQL-1.1.3",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+			};
+			name = Release;
+		};
+		_ReleaseConf_String /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_Venice /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/tomohisa/oss/SimpleMySQLClassGenerator/Packages/CLibvenice-0.5.1/Sources/include";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		"___DebugConf_C7" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_CLibvenice" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_Environment" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_File" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/tomohisa/oss/SimpleMySQLClassGenerator/Packages/CLibvenice-0.5.1/Sources/include";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_MySQL" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/tomohisa/oss/SimpleMySQLClassGenerator/Packages/CMySQL-1.1.3";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_POSIX" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_POSIXRegex" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_SQLFormatter" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/tomohisa/oss/SimpleMySQLClassGenerator/Packages/CMySQL-1.1.3";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_SimpleMySQLClassGenerator" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"/Users/tomohisa/oss/SimpleMySQLClassGenerator/Packages/CLibvenice-0.5.1/Sources/include",
+					"/Users/tomohisa/oss/SimpleMySQLClassGenerator/Packages/CMySQL-1.1.3",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_String" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_Venice" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/tomohisa/oss/SimpleMySQLClassGenerator/Packages/CLibvenice-0.5.1/Sources/include";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"_____Release_" /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = __PBXFileRef_SimpleMySQLClassGenerator.xcodeproj/Configs/Project.xcconfig /* Project.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		"_______Debug_" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = __PBXFileRef_SimpleMySQLClassGenerator.xcodeproj/Configs/Project.xcconfig /* Project.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		"___RootConfs_" /* Build configuration list for PBXProject "SimpleMySQLClassGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"_______Debug_" /* Debug */,
+				"_____Release_" /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_C7" /* Build configuration list for PBXNativeTarget "C7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_C7" /* Debug */,
+				_ReleaseConf_C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_CLibvenice" /* Build configuration list for PBXNativeTarget "CLibvenice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_CLibvenice" /* Debug */,
+				_ReleaseConf_CLibvenice /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_Environment" /* Build configuration list for PBXNativeTarget "Environment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_Environment" /* Debug */,
+				_ReleaseConf_Environment /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_File" /* Build configuration list for PBXNativeTarget "File" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_File" /* Debug */,
+				_ReleaseConf_File /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_MySQL" /* Build configuration list for PBXNativeTarget "MySQL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_MySQL" /* Debug */,
+				_ReleaseConf_MySQL /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_POSIX" /* Build configuration list for PBXNativeTarget "POSIX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_POSIX" /* Debug */,
+				_ReleaseConf_POSIX /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_POSIXRegex" /* Build configuration list for PBXNativeTarget "POSIXRegex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_POSIXRegex" /* Debug */,
+				_ReleaseConf_POSIXRegex /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_SQLFormatter" /* Build configuration list for PBXNativeTarget "SQLFormatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_SQLFormatter" /* Debug */,
+				_ReleaseConf_SQLFormatter /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_SimpleMySQLClassGenerator" /* Build configuration list for PBXNativeTarget "SimpleMySQLClassGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_SimpleMySQLClassGenerator" /* Debug */,
+				_ReleaseConf_SimpleMySQLClassGenerator /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_String" /* Build configuration list for PBXNativeTarget "String" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_String" /* Debug */,
+				_ReleaseConf_String /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_Venice" /* Build configuration list for PBXNativeTarget "Venice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_Venice" /* Debug */,
+				_ReleaseConf_Venice /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = __RootObject_ /* Project object */;
+}

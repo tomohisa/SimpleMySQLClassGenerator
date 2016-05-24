@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme LastUpgradeVersion = "9999" version = "1.3">
+  <BuildAction parallelizeBuildables = "YES" buildImplicitDependencies = "YES">
+    <BuildActionEntries>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_MySQL"
+          BuildableName = "libMySQL.dylib"
+          BlueprintName = "MySQL"
+          ReferencedContainer = "container:SimpleMySQLClassGenerator.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_SQLFormatter"
+          BuildableName = "libSQLFormatter.dylib"
+          BlueprintName = "SQLFormatter"
+          ReferencedContainer = "container:SimpleMySQLClassGenerator.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_Environment"
+          BuildableName = "libEnvironment.dylib"
+          BlueprintName = "Environment"
+          ReferencedContainer = "container:SimpleMySQLClassGenerator.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_CLibvenice"
+          BuildableName = "libCLibvenice.dylib"
+          BlueprintName = "CLibvenice"
+          ReferencedContainer = "container:SimpleMySQLClassGenerator.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_C7"
+          BuildableName = "libC7.dylib"
+          BlueprintName = "C7"
+          ReferencedContainer = "container:SimpleMySQLClassGenerator.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_Venice"
+          BuildableName = "libVenice.dylib"
+          BlueprintName = "Venice"
+          ReferencedContainer = "container:SimpleMySQLClassGenerator.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_String"
+          BuildableName = "libString.dylib"
+          BlueprintName = "String"
+          ReferencedContainer = "container:SimpleMySQLClassGenerator.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_POSIX"
+          BuildableName = "libPOSIX.dylib"
+          BlueprintName = "POSIX"
+          ReferencedContainer = "container:SimpleMySQLClassGenerator.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_File"
+          BuildableName = "libFile.dylib"
+          BlueprintName = "File"
+          ReferencedContainer = "container:SimpleMySQLClassGenerator.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_POSIXRegex"
+          BuildableName = "libPOSIXRegex.dylib"
+          BlueprintName = "POSIXRegex"
+          ReferencedContainer = "container:SimpleMySQLClassGenerator.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_SimpleMySQLClassGenerator"
+          BuildableName = "SimpleMySQLClassGenerator"
+          BlueprintName = "SimpleMySQLClassGenerator"
+          ReferencedContainer = "container:SimpleMySQLClassGenerator.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+    </BuildActionEntries>
+  </BuildAction>
+  <TestAction
+    buildConfiguration = "Debug"
+    selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+    selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+    shouldUseLaunchSchemeArgsEnv = "YES">
+    <Testables>
+    </Testables>
+  </TestAction>
+</Scheme>
