@@ -34,7 +34,9 @@ Edit Settings.swift for matching your setting.
 (This program does not create folder so please create before run.)
 
 # Run program to generage classes
+
 You can run program from either xcode or commandline.
+
 ```
 $ make run
 ```
