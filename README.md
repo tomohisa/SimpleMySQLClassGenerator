@@ -16,7 +16,8 @@ This requires you to Install
 
 This repository has nice make file set up, so you can easily create xcode project.
 
-``` $ make xcode 
+``` 
+$ make xcode 
 ```
 
 This sould make you xcode project you can open.
