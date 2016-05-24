@@ -16,7 +16,7 @@ This requires you to Install
 
 This repository has nice make file set up, so you can easily create xcode project.
 
-``` 
+```sh:bash
 $ make xcode 
 ```
 
@@ -38,15 +38,15 @@ Edit Settings.swift for matching your setting.
 
 You can run program from either xcode or commandline.
 
-```
+```sh:bash
 $ make run
 ```
 
-# copy generated program to your swift Sources Folder
+# Copy generated program to your swift Sources Folder
 Copy files to your own program to access mysql, of course, you can pick only one you need to use.
 
 # Access MySQL
-```Package.swift
+```swift:Package.swift
 import PackageDescription
 let package = Package(
     name: "hello",
@@ -57,7 +57,7 @@ let package = Package(
 ```
 
 change this below to your setting again.
-```main.swift
+```swift:main.swift
 // Change below parameters to match your Environment
 struct Constants: ConnectionOption {
     var host: String = "127.0.0.1"
