@@ -64,7 +64,7 @@ struct Constants: ConnectionOption {
     var port: Int = 3306
     var user: String = "root"
     var password: String = "CHANGE_TO_YOUR_PASSWORD"
-    var database: String = "CHANGE_TO_YOUR_PASSWORD"
+    var database: String = "CHANGE_TO_YOUR_DB_NAME"
     var encoding: MySQL.Connection.Encoding = .UTF8MB4
     var timeZone: MySQL.Connection.TimeZone = MySQL.Connection.TimeZone(GMTOffset: 60 * 60 * 9) // JST
 
