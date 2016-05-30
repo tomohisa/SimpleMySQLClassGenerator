@@ -24,7 +24,7 @@ struct Constants: ConnectionOption {
     var timeZone: MySQL.Connection.TimeZone = MySQL.Connection.TimeZone(GMTOffset: 60 * 60 * 9) // JST
 
     // WHEN YOU USE XCODE, you can NOT use relative path
-    var outputFolder : String = "/Users/tomohisa/Desktop/Output/Sources"
+    var outputFolders : [String] = ["/Users/tomohisa/Desktop/Output/Sources"]
 }
 
 // REWRITE Conversion of Table name to Class Name

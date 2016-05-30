@@ -26,6 +26,19 @@ struct MySQLDescription: QueryRowResultType, QueryParameterDictionaryType  {
         if self.null == "YES" { swiftType += "?" }
         return swiftType
     }
+    func swiftDefault() throws -> String {
+        guard
+            let type = self.type
+            else { return "" }
+        var swiftType = ""
+        if self.null == "YES" { return "nil" }
+        if try Regex(pattern: "(int|year)", options: Regex.RegexOptions(rawValue:3)).matches(type) { swiftType = "0" }
+        if try Regex(pattern: "(text|varchar|char)", options: Regex.RegexOptions(rawValue:3)).matches(type) { swiftType = "\"\"" }
+        if try Regex(pattern: "(date|time)", options: Regex.RegexOptions(rawValue:3)).matches(type) { swiftType = "SQLDate(NSDate())" }
+        if try Regex(pattern: "(decimal|double|float)", options: Regex.RegexOptions(rawValue:3)).matches(type) { swiftType = "0" }
+        return swiftType
+    }
+
     func isAutoIncrement() -> Bool {
         guard
             let extra = self.extra
@@ -84,6 +97,7 @@ struct TableList: QueryRowResultType {
         )
     }
 }
+import MySQL
 
 struct TableInfo {
     var tableName = ""
@@ -97,52 +111,70 @@ do {
         let tables : [TableList] = try conn.query("SHOW TABLES FROM \(constants.database)")
         for table in tables {
             
-            var info = TableInfo()
-            info.tableName = table.tableName
-            
-            info.className = convertTableNameFrom(tableName: table.tableName)
-            
-            let sql = "Desc \(info.tableName);"
-            let columns : [MySQLDescription] = try conn.query(sql)
-            
-            let path = "\(constants.outputFolder)/\(info.className).swift"
-            let file = try File(path: path, mode: .truncateReadWrite)
-            
-            print("exporting swift file for \(info.tableName) ... \(path)")
-            
-            var source = ""
-            source += "import MySQL\n\n"
-            source += "public struct \(info.className): QueryRowResultType, QueryParameterDictionaryType {\n"
-            for column in columns {
-                source += "    public var \(column.swiftFieldName()): \(try column.swiftType())\n"
+            for outputFolder in constants.outputFolders {
+                var info = TableInfo()
+                info.tableName = table.tableName
+                
+                info.className = convertTableNameFrom(tableName: table.tableName)
+                
+                let sql = "Desc \(info.tableName);"
+                let columns : [MySQLDescription] = try conn.query(sql)
+                
+                let path = "\(outputFolder)/\(info.className).swift"
+                let file = try File(path: path, mode: .truncateReadWrite)
+                
+                print("exporting swift file for \(info.tableName) ... \(path)")
+                var comma = ""
+                
+                var source = ""
+                source += "import MySQL\n"
+                source += "import Foundation\n\n"
+                source += "public struct \(info.className): QueryRowResultType, QueryParameterDictionaryType {\n"
+                source += "    public static let DBTableName = \"\(info.tableName)\"\n"
+                source += "    public enum DBColumnName : String {\n"
+                for column in columns {
+                    source += "        case \(column.swiftFieldName()) = \"\(column.dbFieldName())\"\n"
+                }
+                source += "    }\n"
+                
+                source += "    public init("
+                comma = ""
+                for column in columns {
+                    source += "\(comma)\(column.swiftFieldName()): \(try column.swiftType()) = \(try column.swiftDefault())"
+                    comma = "\n                , "
+                }
+                source += ") {\n"
+                for column in columns {
+                    source += "        self.\(column.swiftFieldName()) = \(column.swiftFieldName())\n"
+                }
+                source += "    }\n"
+                for column in columns {
+                    source += "    public var \(column.swiftFieldName()): \(try column.swiftType()) = \(try column.swiftDefault())\n"
+                }
+                source += "    public static func decodeRow(r: QueryRowResult) throws -> \(info.className) {\n"
+                source += "        return try \(info.className)(\n"
+                comma = ""
+                for column in columns {
+                    source += "            \(comma)\(column.swiftFieldName()): r.getValue\(try column.nullchar()=="?" ? "Nullable" : "")(forKey: \"\(column.dbFieldName())\")\n"
+                    comma = ","
+                }
+                source += "        )\n"
+                source += "    }\n"
+                source += "    public func queryParameter() throws -> QueryDictionary {\n"
+                source += "        return QueryDictionary([\n"
+                for column in columns {
+                    if column.isAutoIncrement() { continue }
+                    source += "            \"\(column.swiftFieldName())\": \(column.dbFieldName()),\n"
+                }
+                source += "        ])\n"
+                source += "    }\n"
+                source += "}\n"
+                try file.write(source.data)
+                try file.close()
             }
-            source += "    public static func decodeRow(r: QueryRowResult) throws -> \(info.className) {\n"
-            source += "        return try \(info.className)(\n"
-            var comma = ""
-            for column in columns {
-                source += "            \(comma)\(column.swiftFieldName()): r <|\(try column.nullchar()) \"\(column.dbFieldName())\"\n"
-                comma = ","
-            }
-            source += "        )\n"
-            source += "    }\n"
-            source += "    public func queryParameter() throws -> QueryDictionary {\n"
-            source += "        return QueryDictionary([\n"
-            for column in columns {
-                if column.isAutoIncrement() { continue }
-                source += "            \"\(column.swiftFieldName())\": \(column.dbFieldName()),\n"
-            }
-            source += "        ])\n"
-            source += "    }\n"
-            source += "}\n"
-            try file.write(source.data)
-            try file.close()
         }
     }
     print("successfully finished")
 } catch let error {
     print("error\(error)")
 }
-
-
-
-
